@@ -1,5 +1,6 @@
 # Ignore all dotfiles...
 .*
+*.env
 
 # Ignore all pyc file
 *.pyc
@@ -7,6 +8,7 @@
 # except for .gitignore and .gitkeep
 !.gitignore
 !.gitkeep
+!.dockerignore
 
 whoosh_index/*
 !whoosh_index/README

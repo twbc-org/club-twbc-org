@@ -1,0 +1,8 @@
+.*
+*.env
+Dockerfile
+LICENSE
+README.md
+docker-compose.yaml
+local/
+
