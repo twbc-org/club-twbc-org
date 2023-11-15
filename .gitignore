@@ -1,0 +1,17 @@
+# Ignore all dotfiles...
+.*
+*.env
+
+# Ignore all pyc file
+*.pyc
+
+# except for .gitignore and .gitkeep
+!.gitignore
+!.gitkeep
+!.dockerignore
+
+secrets/*
+!secrets/*.example
+
+club/whoosh_index/*
+!club/whoosh_index/README
