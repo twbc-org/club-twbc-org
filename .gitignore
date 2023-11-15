@@ -10,5 +10,8 @@
 !.gitkeep
 !.dockerignore
 
-whoosh_index/*
-!whoosh_index/README
+secrets/*
+!secrets/*.example
+
+club/whoosh_index/*
+!club/whoosh_index/README

@@ -1,5 +1,7 @@
 .*
 *.env
+club/.env
+secrets/
 Dockerfile
 LICENSE
 README.md
